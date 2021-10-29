@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springboot-vue-blog:war">
+    <output-path>$PROJECT_DIR$/springboot-vue-blog/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>springboot-vue-blog</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="springboot-vue-blog-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="springboot-vue-blog:war exploded" />
+    </root>
+  </artifact>
+</component>
